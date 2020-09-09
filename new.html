@@ -203,17 +203,17 @@
                         <ul class="nav nav-pills nav-pills-primary nav-pills-just-icons" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#profile" role="tablist">
-                                    <i class="now-ui-icons design_image"></i>
+                                    <i class="fas fa-wine-glass-alt"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#home" role="tablist">
-                                    <i class="now-ui-icons location_world"></i>
+                                    <i class="fas fa-paw"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#messages" role="tablist">
-                                    <i class="now-ui-icons design-2_ruler-pencil"></i>
+                                    <i class="fas fa-theater-masks"></i>
                                 </a>
                             </li>
                         </ul>
@@ -223,18 +223,35 @@
                         <div class="tab-pane active" id="profile" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-5 ml-auto mr-auto">
-                                    <div class="card card-background card-background-product card-raised"
-                                        style="background-image: url('../assets/img/bg23.jpg')">
-                                        <div class="card-body">
-                                            <h2 class="card-title">Chair remake.</h2>
-                                            <p class="card-description text-white">
-                                                Trello’s boards, lists, and cards enable you to organize and prioritize
-                                                your projects in a fun, flexible and rewarding way. It was a great
-                                                project and I would be more than happy to do it again.
-                                            </p>
-                                            <label class="badge badge-neutral">Trello</label>
+                                    <div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+                                        <div class="carousel-inner" role="listbox">
+                                          <div class="carousel-item active">
+                                            <img class="d-block img-raised" src="./assets/img/winekey3.jpeg" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/winekey4.jpeg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/winekey5.jpeg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/winekey6.jpeg" alt="Fourth slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/winekey7.jpeg" alt="Fifth slide">
+                                          </div>
                                         </div>
-                                    </div>
+                                        <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev" style="margin-top: 50%; width: 12%;">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-left"></i>
+                                          </button>
+                                        </a>
+                                        <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next" style="margin-top: 50%; width: 12%;">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-right"></i>
+                                          </button>
+                                        </a>
+                                      </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="info info-horizontal">
@@ -265,20 +282,6 @@
                         </div>
                         <div class="tab-pane" id="home" role="tabpanel">
                             <div class="row">
-                                <div class="col-md-5 ml-auto mr-auto">
-                                    <div class="card card-background card-background-product card-raised"
-                                        style="background-image: url('../assets/img/project8.jpg')">
-                                        <div class="card-body">
-                                            <h2 class="card-title">Social Analytics</h2>
-                                            <p class="card-description">
-                                                Insight to help you create, connect, and convert. Understand Your
-                                                Audience's Interests, Influence, Interactions, and Intent. Discover
-                                                emerging topics and influencers to reach new audiences.
-                                            </p>
-                                            <label class="badge badge-neutral">Analytics</label>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-md-5">
                                     <div class="info info-horizontal">
                                         <div class="icon icon-danger">
@@ -305,23 +308,74 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-md-5 ml-auto mr-auto">
+                                    <div id="productCarousel2" class="carousel slide" data-ride="carousel" data-interval="20000">
+                                        <div class="carousel-inner" role="listbox">
+                                          <div class="carousel-item active">
+                                            <img class="d-block img-raised" src="./assets/img/paws1.jpeg" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/paws2.jpeg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/paws3.jpeg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/paws4.jpeg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/paw5.jpeg" alt="Third slide">
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#productCarousel2" role="button" data-slide="prev">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-left"></i>
+                                          </button>
+                                        </a>
+                                        <a class="carousel-control-next" href="#productCarousel2" role="button" data-slide="next">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-right"></i>
+                                          </button>
+                                        </a>
+                                      </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="messages" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-5 ml-auto mr-auto">
-                                    <div class="card card-background card-background-product card-raised"
-                                        style="background-image: url('../assets/img/bg25.jpg')">
-                                        <div class="card-body">
-                                            <h2 class="card-title">Interior Redesign</h2>
-                                            <p class="card-description">
-                                                Insight to help you create, connect, and convert. Understand Your
-                                                Audience's Interests, Influence, Interactions, and Intent. Discover
-                                                emerging topics and influencers to reach new audiences.
-                                            </p>
-                                            <label class="badge badge-neutral">Interior</label>
+                                    <div id="productCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+                                          <li data-target="#productCarousel" data-slide-to="1"></li>
+                                          <li data-target="#productCarousel" data-slide-to="2"></li>
+                                          <li data-target="#productCarousel" data-slide-to="3"></li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                          <div class="carousel-item active">
+                                            <img class="d-block img-raised" src="./assets/img/pp-1.jpg" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/pp-2.jpg" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/pp-3.jpg" alt="Third slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block img-raised" src="./assets/img/pp-4.jpg" alt="Third slide">
+                                          </div>
                                         </div>
-                                    </div>
+                                        <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-left"></i>
+                                          </button>
+                                        </a>
+                                        <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                                          <button type="button" class="btn btn-primary btn-icon btn-round btn-sm" name="button">
+                                            <i class="now-ui-icons arrows-1_minimal-right"></i>
+                                          </button>
+                                        </a>
+                                      </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="info info-horizontal">
@@ -416,7 +470,7 @@
         </div>
     </div>
     <!--     *********     FEATURES 4 ENDS      *********      -->
-    <!-- Contact and Footer -->
+    <!-- Contact -->
     <div class="section section-contact-us text-center" style="padding-bottom: 150px;">
         <div class="container">
             <h2 class="title">Want to work with us?</h2>
@@ -446,6 +500,8 @@
             </div>
         </div>
     </div>
+    <!-- CONTACT END -->
+    <!-- FOOTER -->
     <footer class="footer footer-default">
         <div class=" container ">
             <nav>
@@ -462,12 +518,12 @@
                 <script>
                     document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>, Designed by
-                <a href="#" target="_blank">Kyle Nicholas Anderson</a>.
+                <a href="#">Kyle Nicholas Anderson</a>.
             </div>
         </div>
     </footer>
     </div>
-    <!-- End Contact and Footer -->
+    <!-- End Footer -->
 
 
 
